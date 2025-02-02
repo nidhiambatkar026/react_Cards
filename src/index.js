@@ -3,6 +3,7 @@ import MenuCard from "./card";
 import chinese from "./images/Chinese_items.jpg";
 import south_indian from "./images/south_indian.avif";
 import marathi_food from "./images/maharastrian_food.avif";
+import { AddItem, Order } from "./card";
 
 const root = createRoot(document.getElementById("root"));
 

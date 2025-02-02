@@ -1,5 +1,5 @@
 .card{
-    height: 350px;
+    height: 400px;
     width: 350px;
     border: 3px solid grey;
     border-radius: 20px;
@@ -14,4 +14,14 @@
     height: 200px;
     width: 350px;
     border-radius: 18px 18px 0px 0px;
+}
+.btns{
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+.btns:hover{
+    cursor: pointer;
+    transform: scale(1.1);
 }
