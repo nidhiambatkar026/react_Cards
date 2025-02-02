@@ -1,5 +1,10 @@
 import {createRoot}  from  "react-dom/client";
+import MenuCard from "./card";
 
 const root = createRoot(document.getElementById("root"));
 
-root.render(<h1>Hii This is My First React App🛫</h1>);
+root.render(
+    <>
+      <MenuCard/>
+    </>
+)
